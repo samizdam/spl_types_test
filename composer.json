@@ -1,0 +1,24 @@
+{
+    "name": "samizdam/spl-types",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "BSD-2",
+    "authors": [
+        {
+            "name": "samizdam",
+            "email": "samizdam@inbox.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Samizdam\\SplTypesTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Samizdam\\SplTypesTest\\": "tests/"
+        }
+    }
+}
